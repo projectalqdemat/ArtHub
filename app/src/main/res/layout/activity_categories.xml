@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <!-- TextView for the activity title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Categories"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:background="@drawable/purple"
+        android:backgroundTint="@color/lavender"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <!-- EditText for entering category name -->
+    <EditText
+        android:id="@+id/category_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter category name"/>
+
+    <!-- EditText for entering category ID for edit/delete -->
+    <EditText
+        android:id="@+id/category_id_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter category ID"/>
+
+    <!-- Layout for buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Button to add a category -->
+        <Button
+            android:id="@+id/add_category_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Add"/>
+
+        <!-- Button to edit a category -->
+        <Button
+            android:id="@+id/edit_category_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Edit"/>
+
+        <!-- Button to delete a category -->
+        <Button
+            android:id="@+id/delete_category_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Delete"/>
+    </LinearLayout>
+
+    <!-- RecyclerView to display categories -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/category_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

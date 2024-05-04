@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjectR"
+        tools:targetApi="31">
+        <activity
+            android:name=".RegisterReqs"
+            android:exported="false" />
+        <activity
+            android:name=".PostsReqs"
+            android:exported="false" />
+        <activity
+            android:name=".Categories"
+            android:exported="false" />
+        <activity
+            android:name=".Reports"
+            android:exported="false" />
+        <activity
+            android:name=".AdminPage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProfileCustomer"
+            android:exported="true" />
+        <activity
+            android:name=".notification_item"
+            android:exported="true" />
+        <activity
+            android:name=".Notifications"
+            android:exported="true" />
+        <activity
+            android:name=".NotificationArtist"
+            android:exported="true" />
+        <activity
+            android:name=".AboutUs"
+            android:exported="true" />
+        <activity
+            android:name=".NotificationCustomer"
+            android:exported="true" />
+        <activity
+            android:name=".CartActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GetStart"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true" />
+        <activity
+            android:name=".EditProfile"
+            android:exported="true" />
+        <activity
+            android:name=".PostActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="true">
+
+            <!-- Deep linking -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="art_hub" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true" >
+
+        </activity>
+    </application>
+
+</manifest>

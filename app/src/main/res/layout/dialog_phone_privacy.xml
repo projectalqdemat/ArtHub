@@ -1,0 +1,46 @@
+<!-- dialog_phone_privacy.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="196dp"
+        android:layout_marginBottom="680dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="8dp"
+        android:text="@string/phone_privacy"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchPrivacy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="end"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16dp"
+        android:paddingEnd="16dp" />
+
+    <TextView
+        android:id="@+id/disc"
+        android:layout_width="273dp"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="608dp"
+        android:text="@string/by_activated_it_your_phone_number_will_appear_on_your_profile" />
+
+</RelativeLayout>

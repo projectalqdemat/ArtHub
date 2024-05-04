@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfile">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/second"
+        android:layout_marginTop="60dp">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="80dp"
+            android:layout_height="88dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:backgroundTint="@color/white"
+            app:srcCompat="@drawable/baseline_arrow_forward_24"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView"
+            android:layout_width="141dp"
+            android:layout_height="142dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="92dp"
+            android:layout_marginEnd="145dp"
+            android:background="#8692f7"
+            android:padding="5dp"
+            app:shapeAppearanceOverlay="@style/circular"
+            app:srcCompat="@drawable/person_pic"
+            app:strokeColor="@color/white"
+            app:strokeWidth="5dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageView"
+            android:layout_alignBottom="@+id/imageView"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#8692f7"
+            android:clickable="true"
+            android:contentDescription="TODO"
+            android:focusable="true"
+            android:tint="@color/black"
+            app:backgroundTint="#8692f7"
+
+            app:srcCompat="@drawable/camera" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_below="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="677dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+
+
+
+                <EditText
+                    android:id="@+id/usernameEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/purple2"
+                    android:drawableStart="@drawable/baseline_person_24"
+                    android:drawablePadding="8dp"
+                    android:hint="UserName"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#AAA4A4" />
+
+                <EditText
+                    android:id="@+id/editTextPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/purple2"
+                    android:drawableLeft="@drawable/baseline_edit_square_24"
+                    android:drawablePadding="8dp"
+                    android:hint="Bio"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:inputType="textPassword"
+                    android:textColorHint="#AAA4A4"/>
+
+                <EditText
+                    android:id="@+id/editTextEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/purple2"
+                    android:drawableLeft="@drawable/baseline_email_24"
+                    android:drawablePadding="8dp"
+                    android:hint="Email Address"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#AAA4A4"/>
+
+                <EditText
+                    android:id="@+id/editTextPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/purple2"
+                    android:drawableLeft="@drawable/baseline_local_phonep_24"
+                    android:drawablePadding="8dp"
+                    android:hint="Phone Number"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#AAA4A4"/>
+
+
+                <Button
+                    android:id="@+id/done"
+                    android:layout_width="287dp"
+                    android:layout_height="64dp"
+                    android:backgroundTint="@color/lavender"
+                    android:layout_marginTop="50dp"
+                    android:hint="Done"/>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

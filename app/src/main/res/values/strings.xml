@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">ProjectR</string>
+    <string name="RegisterPage">SignUp</string>
+    <string name="ProfilePage">Your Profile</string>
+    <string name="required_info">*Required Information</string>
+    <string name="HintUserName">UserName*</string>
+    <string name="HintEmail">Email Address*</string>
+    <string name="HintPhone">Phone Number*</string>
+    <string name="HintPassword">Enter Password*</string>
+    <string name="HintConfirm">Confirm Password*</string>
+    <string name="btnCreateAcc">Create Account</string>
+    <string name="grid">All</string>
+    <string name="courses">Courses</string>
+    <string name="products">Products</string>
+    <string name="services">Services</string>
+    <string name="add">Add</string>
+    <string name="feedback">Feedback</string>
+    <string name="home">Home</string>
+    <string name="Share">Share</string>
+    <string name="Settings">Settings</string>
+    <string name="About_Us">About Us</string>
+    <string name="logout">logout</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="UserName">UserName</string>
+    <string name="bio">Bio</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile">Profile</string>
+    <string name="Edit">Edit</string>
+    <string name="hintSearch">Search…</string>
+    <string name="Sign_Up">SIGNUP</string>
+    <string name="Login">LOGIN</string>
+    <string name="Explore">ArtHub is a marketplace for services and handmade products.
+    Users can buy and sell a variety of unique and creative products and services</string>
+    <string name="about_us">This application gathers all artists who have talents such as drawing,
+        photography,handicrafts, etc. It also allows artists to offer courses to show their talents
+        and skills and search for people who can train them in specific areas and allows them to
+        showcase their works and tangible goods. On the other hand, users can purchase these works
+        or books with the artist to make custom ar</string>
+
+    <string name="order_number_text">Order #%d</string>
+    <string name="description">Description</string>
+    <string name="invalid_post_format">Invalid Post Format</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="phone_privacy">Phone Privacy</string>
+    <string name="by_activated_it_your_phone_number_will_appear_on_your_profile">" " By activated it, your phone number will appear on your profile</string>
+    <string name="public_phone_number">Public Phone number</string>
+    <string name="make_phone_number_public">Make phone number public</string>
+    <string name="pref_key_phone_privacy">phone_privacy</string>
+    <string name="enter_feedback">Enter Your Feedback</string>
+    <string name="admin">Admin</string>
+    <string name="admin_email_com">admin@email.com</string>
+
+
+</resources>
