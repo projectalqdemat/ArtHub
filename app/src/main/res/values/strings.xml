@@ -52,6 +52,7 @@
     <string name="enter_feedback">Enter Your Feedback</string>
     <string name="admin">Admin</string>
     <string name="admin_email_com">admin@email.com</string>
+    <string name="report">Report</string>
 
 
 </resources>
