@@ -2,8 +2,10 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="16dp">
-
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    tools:context=".Notifications"
+    android:id="@+id/activity_notification">
     <!-- Notification count -->
     <TextView
         android:id="@+id/notificationCount_textView"
@@ -12,9 +14,23 @@
         android:text="1"
         android:textSize="18sp"
         android:layout_alignParentStart="true"/>
-
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="75dp"
+        android:text="@string/UserName"
+        android:textSize="18sp" />
     <!-- Cancel button -->
-
+    <TextView
+        android:id="@+id/OrderName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="250dp"
+        android:text="Order Name"
+        android:textSize="18sp" />
     <Button
         android:id="@+id/Accept_button"
         android:layout_width="wrap_content"
@@ -24,7 +40,6 @@
         android:layout_marginTop="15dp"
         android:layout_marginEnd="140dp"
         android:text="@string/accept" />
-
     <Button
         android:id="@+id/Reject_button"
         android:layout_width="wrap_content"
